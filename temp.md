@@ -1,12 +1,15 @@
 heroku blog
 ===========
+
+![](https://pic7.zhimg.com/90/v2-7e0cc53eef810e65281bcde60f5c7080_250x0.jpg)
+
 一个博客WEB应用，基于Spring3 MVC与Hibernate3， 前台使用JQuery， 用于部署在Heroku上，项目运行预览：[http://lzqwebsoft.herokuapp.com](http://lzqwebsoft.herokuapp.com "我的空间")。
 
 ####部署开发环境
 如果你想二次开发本应用，可以将其部署在Eclipse上（本应用使用Jetty作为容器运行）,如下：
 
 #####1. 下载
-点击[https://github.com/lzqwebsoft/heroku-blog](https://github.com/lzqwebsoft/heroku-blog)页面中的<b>ZIP</b>链接将其打包成zip文件，下载到本地。或使用git命令将其克隆到本地：
+点击[https://github.com/lzqwebsoft/heroku-blog](https://github.com/lzqwebsoft/heroku-blog)页面中的**ZIP**链接将其打包成zip文件，下载到本地。或使用git命令将其克隆到本地：
 
 `$git clone https://github.com/lzqwebsoft/heroku-blog.git`
 
@@ -54,6 +57,7 @@ Window > Preferences. Select the Java > Build Path > Classpath Variables page；
         &lt;/plugin&gt;
     &lt;/plugins&gt;
 &lt;/build>
+
 </pre>
 
 在使用本程序时还要注意配置数据库的连接信息（本地运行使用MySQL），根据个人情况配置：`src\main\resources\database.properties`文件。同时在运行前，需要先在SQL环境中执行databaseDesign目录中的几个sql脚本程序，来导入程序运行时的初始化数据。
