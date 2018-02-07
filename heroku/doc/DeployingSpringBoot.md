@@ -1,4 +1,4 @@
-﻿## 将Spring Boot程序部署到Heroku
+## 将Spring Boot程序部署到Heroku
 
 内容列表
 
@@ -27,3 +27,5 @@
 
 #### 创建一个Spring Boot应用
 
+请安装Spring Boot CLI
+请按照Spring Boot文档
