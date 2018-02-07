@@ -1,4 +1,4 @@
-﻿##将Spring Boot程序部署到Heroku
+﻿## 将Spring Boot程序部署到Heroku
 
 内容列表
 
@@ -25,5 +25,5 @@
 
 &ensp;&ensp;　使用`keroku keys`检查您的SSH key是否已经添加上。如果SSH key不存在，您可以运行`heroku keys:add`来手动添加。想要了解更多关于SSH keys的信息，请参考[管理您的SSH Keys](https://devcenter.heroku.com/articles/keys)。
 
-####创建一个Spring Boot应用
+#### 创建一个Spring Boot应用
 
