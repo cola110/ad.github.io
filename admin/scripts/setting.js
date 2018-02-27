@@ -3,6 +3,10 @@ var config = function () {
     var host = "http://localhost:5000";
     // var host = "https://colams4api.herokuapp.com";
     var setting = {
+        ///////////////
+        // api url
+        ///////////////
+
         // db
         db_index_list_api_url: host + "/list?callback=?",
 
@@ -13,9 +17,16 @@ var config = function () {
 
         // data
 
-        //
-        index_web_url: "index.html",
-        login_web_url: "login.html",
+        ///////////////
+        // web url
+        ///////////////
+
+        root_index_web_url: "index.html",
+        root_login_web_url: "login.html",
+
+        db_login_web_url: "db/index.html",
+
+
     }
     return setting;
 };

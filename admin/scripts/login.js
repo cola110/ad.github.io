@@ -14,7 +14,7 @@ $(document).ready(function () {
             $.cookie("name", data.result.userName);
             $.cookie("level", data.result.level);
             $.cookie("uuid", data.result.uuid);
-            window.location.href = window.config.index_web_url;
+            window.location.href = window.config.root_index_web_url;
         } else {
             alert("账户密码错误")
         }
