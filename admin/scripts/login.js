@@ -8,10 +8,9 @@ $(document).ready(function () {
     });
 
     function callback(data) {
-        // console.log(data);
-        // console.log(data.userName);
-        $.cookie('name',data.userName);
-        $.cookie('level',data.userName);
-        $.cookie('uuid',data.uuid);
+        console.log(data.userName);
+        $.cookie('name', data.userName);
+        $.cookie('level', data.userName);
+        $.cookie('uuid', data.uuid);
     }
 });
