@@ -4,7 +4,7 @@ Vue.component("silder", {
     '        <div class="tpl-sidebar-user-panel">\n' +
     '            <div class="tpl-user-panel-slide-toggleable">\n' +
     '                <div class="tpl-user-panel-profile-picture">\n' +
-    '                    <img src="assets/img/user04.png" alt="">\n' +
+    '                    <img src="/colams/admin/assets/img/user04.png" alt="">\n' +
     '                </div>\n' +
     '                <span class="user-panel-logged-in-text">\n' +
     '              <i class="am-icon-circle-o am-text-success tpl-user-panel-status-icon"></i>\n' +
@@ -18,28 +18,28 @@ Vue.component("silder", {
     '        <ul class="sidebar-nav">\n' +
     '            <li class="sidebar-nav-heading">Components <span class="sidebar-nav-heading-info"> 附加组件</span></li>\n' +
     '            <li class="sidebar-nav-link">\n' +
-    '                <a href="index.html" class="active">\n' +
+    '                <a href="/colams/admin/index.html" class="active">\n' +
     '                    <i class="am-icon-home sidebar-nav-link-logo"></i> 首页\n' +
     '                </a>\n' +
     '            </li>\n' +
     '            <li class="sidebar-nav-link">\n' +
-    '                <a href="db/index.html">\n' +
+    '                <a href="/colams/admin/db/index.html">\n' +
     '                    <i class="am-icon-table sidebar-nav-link-logo"></i> 数据库管理\n' +
     '                </a>\n' +
     '            </li>\n' +
     '            <li class="sidebar-nav-link">\n' +
-    '                <a href="calendar.html">\n' +
+    '                <a href="/colams/admin/calendar.html">\n' +
     '                    <i class="am-icon-calendar sidebar-nav-link-logo"></i> 日历\n' +
     '                </a>\n' +
     '            </li>\n' +
     '            <li class="sidebar-nav-link">\n' +
-    '                <a href="form.html">\n' +
+    '                <a href="/colams/admin/form.html">\n' +
     '                    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 表单\n' +
     '\n' +
     '                </a>\n' +
     '            </li>\n' +
     '            <li class="sidebar-nav-link">\n' +
-    '                <a href="chart.html">\n' +
+    '                <a href="/colams/admin/chart.html">\n' +
     '                    <i class="am-icon-bar-chart sidebar-nav-link-logo"></i> 图表\n' +
     '\n' +
     '                </a>\n' +

@@ -1,7 +1,8 @@
 var config = function () {
 
-    var host = "http://localhost:5000";
-    // var host = "https://colams4api.herokuapp.com";
+    //var host = "http://localhost:5000";
+    var webhost = "http://" + window.location.host + "/colams/admin/";
+    var host = "https://colams4api.herokuapp.com";
     var setting = {
         ///////////////
         // api url
@@ -21,10 +22,10 @@ var config = function () {
         // web url
         ///////////////
 
-        root_index_web_url: "index.html",
-        root_login_web_url: "login.html",
+        root_index_web_url: webhost + "index.html",
+        root_login_web_url: webhost + "login.html",
 
-        db_login_web_url: "db/index.html",
+        db_login_web_url: webhost + "db/index.html",
 
 
     }
